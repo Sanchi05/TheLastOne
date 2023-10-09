@@ -11,4 +11,6 @@ def open_log_file(file_path):
     
 
 if __name__ == "__main__":
-    open_log_file('sysmon-events.json')
+    ipList = open_log_file('sysmon-events.json')
+    print(len(ipList))
+          
